@@ -1,14 +1,39 @@
-<<<<<<< HEAD
-.image {
-    height: 20%; 
-    width: 20%; 
-   border: 2px solid #fff;
-   border-radius: 50%;
-   box-shadow: 0 0 5px gray;
-   display: inline-block;
-   margin-left: auto;
-   margin-right: auto;
-   overflow: hidden;
-} 
-=======
->>>>>>> parent of edc1f33... buat bsk
+.cardcont {
+    background-size: cover; 
+    background-image: url('../../assets/img/card2.jpg');
+    width: 100%;
+    height: 30%;
+}
+
+.judulkomik{
+    color:white;
+    text-shadow: 20%;
+    font-size: 200%;
+    font-family: 'BebasNeue';
+}
+
+.avatar{
+    margin: 0%;
+    width: 20%;
+    height: 10%;
+    border: 200px;
+    border-color: antiquewhite;
+    border-radius: 50%;
+    float: left;
+}
+
+.deskripsi{
+    color: white;
+    margin:0.4%;
+  }
+
+
+
+
+
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../../assets/font/BebasNeue/BebasNeue.otf') format('truetype');
+    
+    }

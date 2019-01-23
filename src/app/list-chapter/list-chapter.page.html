@@ -1,51 +1,32 @@
 <ion-header>
-    <ion-toolbar>
-        <ion-buttons slot="start">
-          <ion-menu-button></ion-menu-button>
-        </ion-buttons>
-        <ion-title>
-          Komik KUCUK
-        </ion-title>
-      </ion-toolbar>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+        Komik KUCUK
+      </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-<<<<<<< HEAD
-    <ion-card>
-        <ion-card-header>
-            <ion-card-title>Mirza Si Beruang</ion-card-title>
-        </ion-card-header>
-        <ion-card-content>
-            <ion-avatar slot="start">
-                <ion-img width="20%" height="20%" src="assets/img/logo.jpg"></ion-img>
-            </ion-avatar>
-        </ion-card-content>
-      </ion-card>
-        <ion-list>
-            <ion-item (click)="golistchapter()">
-              <ion-avatar slot="start">
-                <ion-img src="assets/img/logo.jpg"></ion-img>
-              </ion-avatar>
-              <ion-label>
-                <h2>Malam Pertama</h2>
-                <h3>Chapter 5</h3>
-              </ion-label>
-            </ion-item>
-          </ion-list>
-    
-=======
-  <ion-card >
+
+  <ion-card class="cardcont" >
       <ion-card-header>
-          <ion-card-title>Sword Emperor</ion-card-title>
+          <ion-card-title class="judulkomik">Sword Emperor</ion-card-title>
       </ion-card-header>
     
-      <ion-card-content>
-          <ion-avatar slot="start">
-              <ion-img width="20%" height="20%" src="assets/es/iPoel Emperor Sword 01 - 001.jpg"></ion-img>
-          </ion-avatar>
+      <ion-card-content >
+        <ion-col>
+              <ion-img class="avatar"  src="assets/es/iPoel Emperor Sword 01 - 001.jpg"></ion-img> 
+            <div class="deskripsi">
+              <B>Anggap saja deskripsi</B>
+            </div>
+            </ion-col>   
       </ion-card-content>
     
     </ion-card>
+  
       <ion-list (click)="gochapter()">
           <ion-item >
             <ion-avatar  slot="start">
@@ -57,7 +38,7 @@
             </ion-label>
           </ion-item>
         </ion-list>
+        
   
->>>>>>> parent of edc1f33... buat bsk
 
 </ion-content>

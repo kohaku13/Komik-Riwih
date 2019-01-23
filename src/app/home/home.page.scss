@@ -2,3 +2,52 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+
+.imgcard {
+  margin: 2%;
+  float: left;
+  width: 20%;
+  height: 15%;
+}
+ .cardcont {
+  background-size: cover; 
+  background-image: url('../../assets/img/card.png');
+  }
+
+  .judulkomik{
+    text-justify: auto;
+    color: black;
+    text-shadow: 20%;
+    margin: center;
+    text-justify: auto;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'BebasNeue';
+ 
+  }
+  .cardslider{
+    width: 20%;
+    height: 20%;
+    background-image: url('../../assets/img/card.png');
+    background-size: 50%
+  
+  }
+
+  .deskripsi{
+    color: white;
+    margin:2%;
+  }
+
+  .header{
+    color: lightskyblue;
+  }
+
+  @font-face {
+    font-family: 'BebasNeue';
+    src: url('../../assets/font/BebasNeue/BebasNeue.otf') format('truetype');
+    
+    }
+
+ 
+
