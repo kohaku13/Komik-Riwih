@@ -1,43 +1,78 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>
-      Komik KUCUK
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
-    <ion-slides pager="true">
-      <ion-slide >
-        <ion-img width="80" height="40" src="assets/img/1.jpg"></ion-img>
-      </ion-slide>
-    
-      <ion-slide>
-        <ion-img width="80" height="40" src="assets/img/2.jpg"></ion-img>
-      </ion-slide>
-    
-      <ion-slide>
-        <ion-img width="80" height="40" src="assets/img/3.jpg"></ion-img>
-      </ion-slide>
-    </ion-slides>
-    <ion-card-content>
-      <h2><b>Daftar Komik</b></h2>
   
-    </ion-card-content>
-    <ion-list>
-      <ion-item (click)="golistchapter()">
-        <ion-avatar slot="start">
-          <ion-img src="assets/es/iPoel Emperor Sword 01 - 001.jpg"></ion-img>
-        </ion-avatar>
-        <ion-label>
-          <h2>Sword Emperor</h2>
-          <h3>Chapter 1</h3>
-          <p>netnot netnot ya netnot</p>
-        </ion-label>
-      </ion-item>
-    </ion-list>
-</ion-content>
+    <ion-header class="header" >
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title >
+          Komik KUCUK
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+    <ion-content>
+
+        <ion-slides pager="true">
+          <ion-slide >
+            <ion-img width="80" height="40" src="assets/img/1.jpg"></ion-img>
+          </ion-slide>
+        
+          <ion-slide>
+            <ion-img width="80" height="40" src="assets/img/2.jpg"></ion-img>
+          </ion-slide>
+        
+          <ion-slide>
+            <ion-img width="80" height="40" src="assets/img/3.jpg"></ion-img>
+          </ion-slide>
+        </ion-slides>
+        <ion-card-content>
+          <h2><b>last update</b></h2>
+      
+        </ion-card-content>
+        
+
+    
+      <ion-card class="cardcont" (click)="golistchapter()">
+        <ion-card-content>
+          <ion-grid>
+              <ion-row>
+                <ion-col >
+                  <ion-title class="judulkomik">
+                        Sword Emperor
+                  </ion-title>
+                </ion-col>
+              </ion-row>
+              <ion-col>
+                  <ion-img class="imgcard" src="/assets/es/iPoel Emperor Sword 01 - 003.jpg"></ion-img>
+                <div class="deskripsi">
+                  <p>ini deskripsi gans!</p>
+                </div>
+              </ion-col>
+            </ion-grid>
+          </ion-card-content>
+        </ion-card>
+      
+
+      
+          <ion-card class="cardcont" (click)="golistchapter()">
+            <ion-card-content>
+              <ion-grid>
+                  <ion-row>
+                    <ion-col >
+                      <ion-title class="judulkomik">
+                            Sword Emperor
+                      </ion-title>
+                    </ion-col>
+                  </ion-row>
+                  <ion-col>
+                      <ion-img class="imgcard" src="/assets/es/iPoel Emperor Sword 01 - 003.jpg"></ion-img>
+                    <div  class="deskripsi">
+                      <p>ini deskripsi gans!</p>
+                    </div>
+                  </ion-col>
+                </ion-grid>
+              </ion-card-content>
+            </ion-card>
+          
+        
+    </ion-content>
