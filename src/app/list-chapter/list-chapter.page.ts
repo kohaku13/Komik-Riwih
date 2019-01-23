@@ -1,18 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import {NavController} from '@ionic/angular';
 
 @Component({
   selector: 'app-list-chapter',
   templateUrl: './list-chapter.page.html',
   styleUrls: ['./list-chapter.page.scss'],
 })
-export class ListChapterPage  {
+export class ListChapterPage implements OnInit {
 
-  constructor(public navCtrl: NavController) { }
+  constructor() { }
 
-  gochapter(){
-    this.navCtrl.navigateForward('chapter')
-
+  ngOnInit() {
   }
 
 }
