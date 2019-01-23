@@ -1,7 +1,5 @@
 {
   "name": "komik",
-  "integrations": {
-    "cordova": {}
-  },
+  "integrations": {},
   "type": "angular"
 }
